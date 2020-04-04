@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5"
+//    ,"watch": true
+
+    ,"lib": ["es2015", "dom"]  //"dom" pour console..., et  "es2015" pour Promise.
+
+    ,"outDir": "./_build"
+
+
+
+    //,"module": "amd"  //INDISPENSABLE pour que le modules loader puisse exploiter le code compilé.
+                        //Seules les valeurs "amd" ou "umd" seront fonctionnelles pour requirejs. 
+                        // Pour SystemJS : ne fonctionne PAS avec la valeur "es6".
+                        //                 mais Ok avec "amd", "system", "umd", commonJS".
+
+    ,"allowJs": true  //INDISPENSABLE pour que les .js sources puissent être mis au format ES5 dans le répertoire 
+                      // d'outDir.
+
+                      
+    //,"experimentalDecorators": true
+    
+  }
+
+}  
+
