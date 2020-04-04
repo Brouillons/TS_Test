@@ -8,7 +8,7 @@ let fMain=function() {
 let test1 = function() { // mmm
   console.log("DEBUT - Avant Promise(...)");
 
-  new Promise((resolve, reject)=> {
+  new Promise((resolve, reject)=>  { //p
     console.log("  Dans  Promise(...) !");
     resolve(88);
   })

@@ -4,7 +4,7 @@ var fMain = function () {
 //---------------------------------------
 var test1 = function () {
     console.log("DEBUT - Avant Promise(...)");
-    new Promise(function (resolve, reject) {
+    new Promise(function (resolve, reject) { // kkk
         console.log("  Dans  Promise(...) !");
         resolve(88);
     })
