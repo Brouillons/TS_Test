@@ -6,7 +6,7 @@ let fMain=function() {
 
 // j  jj !!
 let test1 = function() { // mmm
-  console.log("DEBUT - Avant Promise(...)");
+  console.log("DEBUT - Avant Promise(...)"); // kkk
 
   new Promise((resolve, reject)=>  { //p22005558 8 88
     console.log("  Dans  Promise(...) !");
