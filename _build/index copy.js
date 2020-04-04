@@ -3,8 +3,8 @@ var fMain = function () {
 };
 //---------------------------------------
 var test1 = function () {
-    console.log("DEBUT - Avant Promise(...)");
-    new Promise(function (resolve, reject) { // kkk666
+    console.log("DEBUT - Avant Promise(...)");  // pp
+    new Promise(function (resolve, reject) { // kkk666444
         console.log("  Dans  Promise(...) !");
         resolve(88); // 44
     })

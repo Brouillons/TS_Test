@@ -6,7 +6,7 @@ var test1 = function () {
     console.log("DEBUT - Avant Promise(...)");
     new Promise(function (resolve, reject) { // kkk555666
         console.log("  Dans  Promise(...) !");
-        resolve(88);
+        resolve(888);
     })
         .then(function (pDataParam) {
         console.log("\nOn arrive de façon asynchrone dans le  then(...) !");
