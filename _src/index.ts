@@ -5,7 +5,7 @@ let fMain=function() {
 //---------------------------------------
 
 let test1=function() {
-  console.log("DEBUT - Avant Promise(...)");
+  console.log("DEBUT - Avant Promise(...)"); //
 
   new Promise((resolve, reject)=> {
     console.log("  Dans  Promise(...) !");
