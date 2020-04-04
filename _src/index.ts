@@ -4,7 +4,7 @@ let fMain=function() {
 
 //---------------------------------------
 
-// jjj !!
+// j  jj !!
 let test1 = function() { // mmm
   console.log("DEBUT - Avant Promise(...)");
 
